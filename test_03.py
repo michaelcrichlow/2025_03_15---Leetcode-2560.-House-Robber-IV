@@ -36,8 +36,9 @@ def minCapability(nums: list[int], k: int) -> int:
     for val in local_array:
         _maxs.append(max(val))
 
-    
     return min(_maxs)
+
+# working version not entered yet (03.16.2025)
 
 def main() -> None:
     print(minCapability(nums = [2,3,5,9], k = 2))
